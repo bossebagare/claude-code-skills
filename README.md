@@ -21,6 +21,10 @@ Se `_template/SKILL.md` för en startmall.
 - Det här är separat från claude.ai-kontots Skills (System 1, `.skill`-filer, syncar via kontot). De två systemen pratar inte med varandra.
 - Namn + beskrivning i frontmatter avgör om Claude känner igen och triggar skillen — håll beskrivningar unika för att undvika krockar med andra skills.
 
+## Installera på en ny dator
+
+Kör `install.ps1` (Windows/PowerShell) eller `install.sh` (Mac/Linux) — de klonar detta repo till `~/.claude/skills/`, eller kör `git pull` om det redan finns där. Om mappen redan finns med annat innehåll flyttas den till en `.bak.<tidsstämpel>`-mapp innan kloningen, inget skrivs över. Fullständiga instruktioner (inkl. copy-paste-kommandon) finns i Notion-sidan "Skills — Komplett Guide & Strategi".
+
 ## Källa till sanning
 
 - **Notion**: "Skills — Komplett Guide & Strategi" (under Westila AI Hub) — strategi, aktiv-lista, roadmap.
